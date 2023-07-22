@@ -1,0 +1,33 @@
+#title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#container {
+    width: 480px;
+    height: 480px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#grid-row {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+#grid-cell {
+    margin : 1px;
+    flex: 1;
+    border: 1px solid black;
+}
+
+#controls {
+    margin : 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
